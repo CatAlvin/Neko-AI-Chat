@@ -60,7 +60,7 @@ Model generation does not itself authorize a send. Account changes, human takeov
 
 ## Run locally
 
-Requires Python 3.12 and Node.js 22.13+. The default SQLite setup runs on localhost in simulation mode.
+Requires Python 3.12 and Node.js 22.13+. The default SQLite setup runs on localhost in simulation mode. Install FFmpeg and make it available on PATH for media compression and the full media regression tests.
 
 ```bash
 git clone https://github.com/CatAlvin/Neko-AI-Chat.git
