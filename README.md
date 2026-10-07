@@ -26,12 +26,9 @@ The screenshot uses fictional contacts in simulation mode and a real local Ollam
 
 ```mermaid
 flowchart LR
-  A[Incoming message] --> B[Archive and deduplicate]
-  B --> C[Context and model routing]
-  C --> D[Reply or human handoff]
-  D --> E[Final send checks]
-  E --> F[Platform delivery]
-  F --> G[Receipt and audit trail]
+  A[Receive and archive] --> B[Memory and models]
+  B --> C[Reply and send checks]
+  C --> D[Delivery and receipts]
 ```
 
 ## What I designed and built
