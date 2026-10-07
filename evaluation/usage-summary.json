@@ -1,0 +1,58 @@
+{
+  "audited_at_bjt": "2026-10-07T19:30:17.093886+08:00",
+  "observation_start_bjt": "2026-08-26T00:50:39+08:00",
+  "observation_end_bjt": "2026-09-29T20:00:12+08:00",
+  "channel": "QQ_NAPCAT",
+  "active_days_with_any_message": 35,
+  "message_records": 1157,
+  "inbound_records": 493,
+  "outbound": {
+    "sent_ai_llm": 368,
+    "sent_ai_template": 93,
+    "sent_human": 47,
+    "sent_system": 142,
+    "failed_ai": 8,
+    "shadow_ai": 5,
+    "blocked_system": 1
+  },
+  "delivery_ledger": {
+    "distinct_messages": 195,
+    "platform_acknowledged": 193,
+    "failed": 2,
+    "acknowledgement_rate": 0.9897435897435898
+  },
+  "attachments": {
+    "records": 154,
+    "completed_images": 84,
+    "completed_audio": 29,
+    "completed_files": 5,
+    "analysis_failed": 6
+  },
+  "audit_events": {
+    "duplicate_ignored": 116,
+    "llm_request": 45,
+    "llm_response": 42,
+    "fallback_used_in_retained_responses": 0
+  },
+  "current_state": {
+    "queued_or_in_flight_messages": 0,
+    "unresolved_incidents": 0,
+    "open_recovery_items": 5,
+    "background_tasks_done": 39,
+    "acceptance_runs": 0
+  },
+  "rolling_windows": {
+    "last_24_hours": {
+      "messages": 0
+    },
+    "last_7_days": {
+      "messages": 0
+    }
+  },
+  "notes": [
+    "Simulator messages excluded.",
+    "Sent status is distinct from a platform receipt.",
+    "Delivery ledger and audit log cover subsets of historical usage.",
+    "Active dates are not a measurement of process uptime."
+  ]
+}
